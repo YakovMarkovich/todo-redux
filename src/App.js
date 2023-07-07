@@ -4,7 +4,7 @@ import store from "./store";
 import TodoList from "./components/TodoList/TodoList";
 
 function App() {
-    return <><Provider store={store}>A<TodoList/>
+    return <><Provider store={store}><TodoList/>
     </Provider></>;
 }
 
